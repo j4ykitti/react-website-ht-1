@@ -1,0 +1,42 @@
+.hotel {
+    border: 1px solid black;
+    background: ('/images/hotel1.jpg');
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    display: flex;
+  }
+
+  .header {
+    font-style: oblique;
+    font-size: 20 px;
+    text-decoration: underline;
+    margin: 50px;
+    margin-bottom: 0;
+    height: 200px;
+    background-position: center;
+    color: white;
+    border: 5px solid black; 
+  }
+
+  .fac {
+    font-size: 15px;
+  }
+  .faci {
+   text-align: center;
+   font-style: normal;
+   font-size: 30px;
+  }
+
+  .type {
+    height: 400px;
+    width: 400px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+  }
+
+  .detail{
+    margin-left: 100px;
+    
+  }
