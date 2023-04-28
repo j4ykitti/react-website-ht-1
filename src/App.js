@@ -8,6 +8,8 @@ import ContactUs from './components/Contact';
 import Card from './components/pages/Hotel';
 import Carded from './components/pages/Hotel';
 import HotelSrivanna from './components/pages/Srivanna';
+import Logins from './components/pages/Sign-Up';
+import Regis from './components/pages/Regis';
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
         <Route path='/Srivanna'exact Component=
         {HotelSrivanna} />
         <Route path='/sign-up'exact Component=
-        {HotelSrivanna} />
+        {Logins} />
+        <Route path='/register'exact Component=
+        {Regis} />
       </Routes>
     </Router>
     </>

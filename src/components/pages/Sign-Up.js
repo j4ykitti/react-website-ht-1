@@ -1,11 +1,11 @@
 import '../../App.css'
-import Login from '../Login';
+import LoginForm from '../Login';
 import React from 'react';
 
 function Logins() {
     return (
         <>
-            <Login />
+            <LoginForm />
         </>
     );
 }

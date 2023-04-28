@@ -21,6 +21,7 @@ function HotelSrivanna(){
             <li className='faci'>
             <p><FaCheck/>parking <FaCheck/>air-con <FaCheck/>wi-fi <FaCheck/>fitness <FaCheck/>airport-transfer</p>
             </li>
+            
             <li className='type'>
             <CartItem
               src='images/Deluxe.jpg'
@@ -32,6 +33,8 @@ function HotelSrivanna(){
             <li className='detail'>
                 <h3><IoAccessibility/> 1-2 adult <FaChild/> 0 kid <FaBed/> 1 QueenSize</h3>
             </li>
+
+            
             <li className='type'>
             <CartItem
               src='images/Suite.jpg'

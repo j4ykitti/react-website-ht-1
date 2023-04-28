@@ -48,7 +48,7 @@ function Cards() {
               src='images/hotel1.jpg'
               text='Srivanna Hotel'
               label='Start at THB 2,400'
-              path='/hoteldetail'
+              path='/Srivanna'
               />
               <CardItem
               src='images/hotel2.jpg'
