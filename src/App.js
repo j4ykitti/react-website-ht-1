@@ -10,6 +10,8 @@ import Carded from './components/pages/Hotel';
 import HotelSrivanna from './components/pages/Srivanna';
 import Logins from './components/pages/Sign-Up';
 import Regis from './components/pages/Regis';
+import HotelGrand from './components/HotelGrand';
+import HotelJay from './components/HotelJay';
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
         {Logins} />
         <Route path='/register'exact Component=
         {Regis} />
+        <Route path='/Grand'exact Component=
+        {HotelGrand} />
+        <Route path='/Jay'exact Component=
+        {HotelJay} />
       </Routes>
     </Router>
     </>

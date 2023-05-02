@@ -47,20 +47,20 @@ function Cards() {
               <CardItem
               src='images/hotel1.jpg'
               text='Srivanna Hotel'
-              label='Start at THB 2,400'
+              label='Start at THB 1,500'
               path='/Srivanna'
               />
               <CardItem
               src='images/hotel2.jpg'
               text='Grand Palace'
-              label='Start at THB 7,500'
-              path='/hoteldetail'
+              label='Start at THB 2,500'
+              path='/Grand'
               />
               <CardItem
               src='images/hotel3.jpg'
               text='Jay Star'
-              label='Start at THB 1,500'
-              path='/hoteldetail'
+              label='Start at THB 3,500'
+              path='/Jay'
               />
         </ul>
         <ul className='cards__items'>

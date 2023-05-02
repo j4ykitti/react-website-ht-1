@@ -1,4 +1,4 @@
-import './HotelSrivanna.css';
+import './HotelGrand.css';
 import React , {useState} from 'react';
 import '../App.css'
 import { FaChild } from "react-icons/fa";
@@ -12,12 +12,12 @@ import { IoAccessibility } from "react-icons/io5";
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
 import { Calendar } from "react-modern-calendar-datepicker";
 
-function HotelSrivanna(){
+function HotelGrand(){
     
     return (
        <div>
-            <div className="header" style = {{backgroundImage : "url(/images/hotel1.jpg"}} >
-                 <h1> Srivanna Hotel</h1>
+            <div className="header" style = {{backgroundImage : "url(/images/hotel2.jpg"}} >
+                 <h1> Grand Palace</h1>
             </div>
             <li className='fac'>
             <h1>Facility</h1>
@@ -35,7 +35,7 @@ function HotelSrivanna(){
             <CartItem
               src='images/Deluxe.jpg'
               text='Deluxe'
-              label='1,500 THB'
+              label='2,500 THB'
               path='/hoteldetail'
               
               />
@@ -52,7 +52,7 @@ function HotelSrivanna(){
             <CartItem
               src='images/Suite.jpg'
               text='Suite'
-              label='2,500 THB'
+              label='2,900 THB'
               path='/hoteldetail'
               />
                 </li>
@@ -65,4 +65,4 @@ function HotelSrivanna(){
     )
 }
 
-export default HotelSrivanna 
+export default HotelGrand
