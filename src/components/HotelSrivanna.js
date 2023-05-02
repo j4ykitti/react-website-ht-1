@@ -7,17 +7,13 @@ import { FaBed } from "react-icons/fa";
 import './Cards.css';
 import CartItem from './CartCardItem';
 import { IoAccessibility } from "react-icons/io5";
-import ReactDatePicker from 'react-datepicker';
+
 
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
 import { Calendar } from "react-modern-calendar-datepicker";
 
 function HotelSrivanna(){
-    const [selectedDayRange, setSelectedDayRange] = useState({
-        from: null,
-        to: null
-    });
-   
+    
     return (
        <div>
             <div className="header" style = {{backgroundImage : "url(/images/hotel1.jpg"}} >
@@ -30,11 +26,7 @@ function HotelSrivanna(){
             <p><FaCheck/>parking <FaCheck/>air-con <FaCheck/>wi-fi <FaCheck/>fitness <FaCheck/>airport-transfer</p>
             </li>
             <div className='calen'>
-            <Calendar
-                  value={selectedDayRange}
-                 onChange={setSelectedDayRange}
-                  shouldHighlightWeekends
-             />
+            <input type="date" placeholder="YYYY/MM/DD" />
              </div>
             <li className='type' >
             <CartItem
