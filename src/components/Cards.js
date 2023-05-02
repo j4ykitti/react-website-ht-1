@@ -21,23 +21,49 @@ function Cards() {
         <input type="text" placeholder="Search Hotel" onChange={event => {setSearchTerm(event.target.value)}} />
         {JasonData.filter((val)=>{
           if (searchTerm == "") {
-            return val
+            return 0
           } else if (val.Name.toLowerCase().includes(searchTerm.toLowerCase())){
             return val
           }
 
         
       }).map((val, key)=> {
-          return (
+            if ((val.Name) == "Srivanna Hotel"){
+            return (
           <div className="black-text" key={key}> 
           <Link to='/Srivanna' >
               <p>
                   {val.Name}
               </p>
               </Link>
-          </div>
-          );
-          })};
+            </div>
+             );}
+
+            else if ((val.Name) == "Jay Star"){
+            return (
+               <div className="black-text" key={key}> 
+               <Link to='/Jay' >
+                <p>
+                   {val.Name}
+               </p>
+               </Link>
+              </div>
+             );}
+
+            else if ((val.Name) == "Grand Palace"){
+            return (
+                 <div className="black-text" key={key}> 
+                 <Link to='/Grand' >
+                  <p>
+                     {val.Name}
+                 </p>
+                 </Link>
+                </div>
+               );}
+
+
+
+            })};
     </div>
           
 
