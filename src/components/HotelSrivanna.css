@@ -18,27 +18,39 @@
     background-position: center;
     color: white;
     border: 5px solid black; 
+    list-style-type: none;
   }
 
   .fac {
     font-size: 15px;
+    list-style-type: none;
   }
   .faci {
    text-align: center;
    font-style: normal;
    font-size: 30px;
+   list-style-type: none;
+   margin-bottom: 50px;
   }
 
   .type {
     height: 400px;
     width: 400px;
     margin-left: 70px;
-    margin-bottom: 0px;
+    margin-bottom: -50px;
+    list-style-type: none;
   }
 
   .detail{
+    margin-bottom: 80px;
     margin-left: 100px;
+    list-style-type: none;
     
+  }
+
+  .calen{
+    margin-left: 100px;
+    margin-bottom: 20px;
   }
 
   

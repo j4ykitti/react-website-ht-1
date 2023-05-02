@@ -71,3 +71,7 @@ input:focus {
         height: 65%;
     }
 }
+.box {
+    text-align: center;
+    margin-bottom: 5px;
+}
